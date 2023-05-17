@@ -1,0 +1,29 @@
+.text_effect {
+    font-size: 40px; /*글자크기*/
+    font-weight: bold; /*글자의 상하간격*/
+    color: blue; /*글자 색갈*/
+    text-shadow: 2px 2px 2px black; /*그림자 좌우, 상하, 선명도, 그림자 색깔*/
+    text-align: center; /*정렬*/
+}
+
+.img {
+    text-align: center;
+    margin: 20px; /*여백*/
+}
+
+.text {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.content {
+    border: 5px solid black;  /*테두리 굵기, 종류, 색깔 */
+    width: 600px;  /*넓이*/
+    margin: 0 auto;
+    background-color: yellow; 
+    padding: 20px; /*테두리와 글자간의 간격*/
+}
+
+body {
+    background-color: violet;
+}
