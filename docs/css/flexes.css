@@ -1,0 +1,52 @@
+.flex-container_1 {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row; 
+  /*row-reverse 우측에서 좌측으로 정렬*/
+  justify-content: space-between; 
+  /*center=중앙 정렬 end=우측 정렬 space-around간격 맞춰서 정렬 space-between 좌우중앙 정렬*/
+}
+
+.flex-container {
+  display: flex;
+  /*flex-wrap: nowrap;*/
+  background-color: DodgerBlue;
+}
+
+.flex-container_2 {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: column; 
+  /*column은 위에서 아래로 정렬*/
+  justify-content: space-between; 
+}
+
+.flex-container > div {  /*flex-container에 종속되어있는 div 뜻임 */
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; 
+  /*line-height는 라인과 라인 사이에 간격*/
+  font-size: 30px;
+}
+
+.flex-container_1 > div {  /*flex-container에 종속되어있는 div 뜻임 */
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; 
+  /*line-height는 라인과 라인 사이에 간격*/
+  font-size: 30px;
+}
+
+.flex-container_2 > div {  /*flex-container에 종속되어있는 div 뜻임 */
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; 
+  /*line-height는 라인과 라인 사이에 간격*/
+  font-size: 30px;
+}
