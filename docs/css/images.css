@@ -1,0 +1,40 @@
+* {
+    border: 0.2rem dotted gray;
+}
+
+/*브라우저의 시작은 왼쪽 상단부터 시작한다.*/
+.border_round_1 {
+    border: 0.1rem solid red;
+    border-radius: 3rem;
+}
+
+.border_round_2 {
+    border: 0.1rem solid blue;
+    /*border-radius: 1rem 2rem 3rem 4rem; */
+    border-radius: 2rem 0rem 0rem 2rem; 
+    /*수치는 왼쪽 상단부터 시계방향*/ 
+}
+
+.border_round_3 {
+    border: 0.1rem solid red;
+    border-radius: 1rem 2rem;
+    /*수치 2개만 적용하면 왼쪽 상단부터 대각선에 수치 적용*/
+}
+
+.border_round_4 {
+    border: 0.1rem solid red;
+    border-radius: 50%;
+}
+
+.border_round_5 {
+    border: 0.1rem solid blue;
+    border-radius: 50%;
+}
+
+.border_round_6 { 
+    border: 0.1rem solid blue;
+    border-radius: 50%;
+    width: 100%;
+    /*가로면 한줄에 전체를 체우려면 img태그에 width를 적용한다
+    이미지는 height도 같이 변화된다*/
+}
